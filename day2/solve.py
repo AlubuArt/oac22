@@ -36,8 +36,7 @@ def p1():
     if line == "C Z":
       myPoints.append(6)
     
-
-
+# part two
 def p2():
   for line in lines: 
     myList.append(line.strip())
@@ -61,6 +60,7 @@ def p2():
       myPoints.append(6)
     if line == "C Z":
       myPoints.append(7)
+
 
 
 
